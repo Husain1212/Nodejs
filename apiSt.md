@@ -1,4 +1,4 @@
-### <!-- Api to register a student -->
+### Api to register a student
 
 ```
 URL : www.wecodeacademy.in/api/v1/student
@@ -33,7 +33,7 @@ statusCode : 500
 }
 ```
 
-### <!-- Api to get all student details -->
+### Api to get all student details
 
 ```
 URL : www.wecodeacademy.in/api/v1/student
@@ -99,7 +99,7 @@ errrorMessage : "Erro while retrieving data"
 }
 ```
 
-### <!-- Api to get student detail by id -->
+### Api to get student detail by id
 
 ```
 URL : www.wecodeacademy.in/api/v1/student/002
@@ -137,7 +137,7 @@ errrorMessage : "Erro while retrieving data"
 }
 ```
 
-### <!-- Api to get student detail by id, by name, by age -->
+### Api to get student detail by id, by name, by age
 
 ```
 URL : www.wecodeacademy.in/api/v1/student/003?name=Adil&age=22
@@ -175,7 +175,7 @@ errrorMessage : "Erro while retrieving data"
 }
 ```
 
-### <!-- Api to get student detail by id, by name, by age, by mobile, by email, by fathername, by address, by pincode -->
+### Api to get student detail by id, by name, by age, by mobile, by email, by fathername, by address, by pincode
 
 ```
 URL : www.wecodeacademy.in/api/v1/student/003?name=Adil&age=22&mobile=9787767888&email="Adil@gmail.com"&Father%20%20Name=khan&address=Nagour&pincode=341500
@@ -200,7 +200,7 @@ errrorMessage : "Erro while retrieving data"
 }
 ```
 
-### <!-- Api to get all teacher details -->
+### Api to get all teacher details
 
 ```
 URL : www.wecodeacademy.in/api/v1/teacher
@@ -254,7 +254,7 @@ errrorMessage : "Erro while retrieving data"
 }
 ```
 
-### <!-- Api to get teacher details by id  -->
+### Api to get teacher details by id
 
 ```
 URL : www.wecodeacademy.in/api/v1/teacher/T001
@@ -282,7 +282,7 @@ TeacherExpert : ["Js","Nodejs"] } ]
 }
 ```
 
-### <!-- Api to get teacher details by name  -->
+### Api to get teacher details by name
 
 ```
 URL : www.wecodeacademy.in/api/v1/teacher/?name="Sajid
@@ -295,7 +295,7 @@ Request Headers : NO
 Response Headers :Content Type : application/json
 ```
 
-### <!-- Api to get all batch details  -->
+### Api to get all batch details
 
 ```
 URL : www.wecodeacademy.in/api/v1/batch
@@ -308,7 +308,7 @@ Request Headers : NO
 Response Headers :Content Type : application/json
 ```
 
-### <!-- Api to get batch details by batchName -->
+### Api to get batch details by batchName
 
 ```
 URL : www.wecodeacademy.in/api/v1/batchName?batchname=["HTML","CSS","Js","Nodejs"]
