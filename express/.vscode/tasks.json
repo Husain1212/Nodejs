@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "student-manage-data",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install - student-manage-data",
+			"detail": "install dependencies from package"
+		}
+	]
+}
